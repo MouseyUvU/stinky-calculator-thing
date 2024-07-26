@@ -18,7 +18,7 @@ function calculate() {
     const result = resolve(parsedData);
 
     display.value = result.toString();
-    inputData = [result];
+    inputData = [result.toString()];
 }
 
 
